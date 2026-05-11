@@ -1,0 +1,20 @@
+{
+  "id": "prayertimes",
+  "name": "Prayer Times",
+  "shortName": "Prayer",
+  "version": "0.01",
+  "description": "Shows today's Islamic prayer times and the next prayer countdown using the shared My Location coordinates.",
+  "icon": "app.png",
+  "type": "app",
+  "tags": "time,prayer,utilities",
+  "supports": ["BANGLEJS", "BANGLEJS2"],
+  "allow_emulator": true,
+  "storage": [
+    { "name": "prayertimes.app.js", "url": "app.js" },
+    { "name": "prayertimes.settings.js", "url": "settings.js" },
+    { "name": "prayertimes.img", "url": "app-icon.js", "evaluate": true }
+  ],
+  "data": [
+    { "name": "prayertimes.settings.json" }
+  ]
+}
